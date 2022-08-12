@@ -17,11 +17,11 @@
 /* font-family: 'Open Sans', sans-serif; */
 
 /* font-family: 'Poppins', sans-serif; */
-
 header {
     padding: 5vw;
     background-image: url(../images/bg-hero-desktop.svg);
     background-color: var(--Very-Pale-Cyan);
+    text-align: center;
 }
 
 nav {
@@ -34,7 +34,6 @@ nav {
 }
 
 .tri {
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 2vw;
     font-weight: 600;
@@ -49,7 +48,7 @@ nav {
 .grid__one {
     width: 80vw;
     margin: auto;
-    text-align: center;
+
 }
 
 .grid__one h1 {
@@ -82,8 +81,125 @@ nav {
 
 .grid__two img {
     width: 80vw;
-    margin: 1vw auto;
+    margin: 1vw 2vw;
 }
+
+section {
+    text-align: center;
+}
+
+.section_img {
+    margin: 25vw 0 0 0;
+    width: 60vw;
+}
+
+section h3 {
+    margin: auto;
+    margin-top: 18vw;
+    font-size: 6vw;
+    font-family: 'Poppins', sans-serif;
+    color: var(--Very-Dark-Cyan);
+}
+
+section p {
+    width: 70vw;
+    margin: auto;
+    margin-top: 2vw;
+    font-size: 3.7vw;
+    color: var(--Grayish-Blue);
+}
+
+footer {
+    margin-top: 50vw;
+    background-color: var(--Very-Dark-Cyan);
+}
+
+.ready {
+    position: relative;
+    top: -8vw;
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding: 2vw;
+    border-radius: 3vw;
+}
+
+h2 {
+
+    font-size: 5vw;
+    color: var(--Very-Dark-Cyan);
+}
+
+.ready .get {
+    width: 50vw;
+    margin: 2vw auto;
+    font-size: 3vw;
+}
+
+footer .footer_content {
+    width: 90vw;
+    margin: auto;
+}
+
+.footer_logo {
+    margin-bottom: 2vw;
+}
+
+
+
+.fo_grid__one p {
+    width: 90vw;
+    padding-left: 5vw;
+    font-size: 4vw;
+}
+
+.fo_grid__p {
+    margin: 5vw 0 2vw 2vw;
+    width: 90vw;
+    font-size: 4vw;
+    color: var(--Grayish-Blue);
+}
+
+.fo_icon {
+    float: left;
+    margin-top: 0.5vw;
+}
+
+.fo_grid__two {
+    width: 15vw;
+}
+
+.fo_grid__three {
+    width: 15vw;
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social i {
+    margin-top: 15vw;
+    width: 8vw;
+    text-align: center;
+    color: white;
+    margin-left: 2vw;
+    font-size: 3vw;
+    padding: 2vw;
+    border: 0.1vw solid #fff;
+    border-radius: 50%;
+}
+
+.fot_p {
+    width: 100vw;
+    padding: 12vw;
+    text-align: center;
+    font-size: 4vw;
+    color: var(--Grayish-Blue);
+}
+
 
 @media (min-width: 500px) {
     .logo {
@@ -147,31 +263,39 @@ nav {
     }
 
     section {
-        padding: 3vw;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        width: 80vw;
+        display: flex;
+        margin: auto;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     section h3 {
         margin: auto;
         margin-top: 8vw;
-        width: 28vw;
+        width: 40vw;
         font-size: 2vw;
         font-family: 'Poppins', sans-serif;
         color: var(--Very-Dark-Cyan);
+        text-align: left;
     }
 
     section p {
-        width: 28vw;
+        width: 40vw;
         margin: auto;
         margin-top: 2vw;
         font-size: 1.2vw;
         color: var(--Grayish-Blue);
+        text-align: left;
+        padding-right: 10vw;
     }
 
     .section_img {
         width: 28vw;
-        margin-left: 5vw;
+        margin: 5vw;
     }
 
     footer {
@@ -196,7 +320,9 @@ nav {
     }
 
     .ready .get {
+        width: 20vw;
         margin: 2vw auto;
+        font-size: 1vw;
     }
 
     footer .footer_content {
@@ -215,8 +341,10 @@ nav {
     }
 
     .fo_grid__one p {
-        width: 35vw;
-        padding-right: 10vw;
+        width: 28vw;
+        padding-left: 1vw;
+        padding-right: 5vw;
+        font-size: 1.2vw;
     }
 
     .fo_grid__p {
@@ -246,6 +374,7 @@ nav {
     }
 
     .social i {
+        margin-top: 0;
         width: 2vw;
         text-align: center;
         color: white;
@@ -259,7 +388,7 @@ nav {
 
     .fot_p {
         width: 80vw;
-        padding-bottom: 2vw;
+        padding: 2vw;
         text-align: right;
         font-size: 1vw;
         color: var(--Grayish-Blue);
