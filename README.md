@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/informaticadiaz/-huddle-landing-page)
-- Live Site URL: [Add live site URL here](https://informaticadiaz.github.io/-huddle-landing-page/)
+- Solution URL: [here](https://github.com/informaticadiaz/-huddle-landing-page)
+- Live Site URL: [here](https://informaticadiaz.github.io/-huddle-landing-page/)
 
 ## My process
 
